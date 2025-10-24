@@ -1,0 +1,57 @@
+.Policy{
+    display:flex;
+    gap:20px;
+    margin:30px 50px 30px 50px;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+  
+    width:280px;
+   
+}
+
+.item img{
+    width:50px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.desc h4{
+    
+ font-size:20px;
+}
+.Order{
+    background-color:  #EFEFEF;
+  height:281px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+margin-bottom: 70px;
+}
+.Order button{
+    Width:242px;
+Height:78px;
+background-color: transparent;
+border:1px solid #272727;
+font-size: 20px;
+transition: 0.4s;
+}
+.Order button:hover{
+    background-color:  #272727;
+    color: white;
+}
+.Order p{
+      background: linear-gradient(to left, #252525, #999999);
+      /* appliquer la degradation sur tt l'element */
+  -webkit-background-clip: text;
+/* cette degradition s'applique seulement sur le text qui exist dans l'element hadak */
+  -webkit-text-fill-color:transparent;
+  /*Rend la couleur de base du texte transparente pour laisser apparaître le dégradé */
+    font-size:36px;
+}

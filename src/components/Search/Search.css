@@ -1,0 +1,29 @@
+.search-div{
+    height:60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   display: flex;
+}
+.input-div{
+       display: flex;
+       gap:10px;
+
+ }
+.input-div img{
+    height:20px;
+    width:20px;
+    margin-top: 4px;
+    cursor:pointer;
+}
+.input-div input{
+border-radius: 8px;
+width: 450px;
+outline: none;
+height: 30px;
+background: transparent;
+padding-left: 10px;
+border:1px solid #7E7E7E;
+}

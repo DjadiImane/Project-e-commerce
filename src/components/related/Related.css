@@ -1,0 +1,5 @@
+.related{
+    display: flex;
+  gap:20px;
+  margin:10px 15px 60px 15px;
+}

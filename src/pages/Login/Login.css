@@ -1,0 +1,54 @@
+
+.sign{
+    border-radius: 7px;
+
+    margin:70px 0 70px ;
+    margin-right:none;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    justify-content:top;
+    align-items:center;
+}
+h1{
+    color:black;
+    font-size: 38px;
+}
+.mil{
+display: flex;
+flex-direction: column;
+gap:17px;
+}
+.infor{
+     display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.infor input{
+    height:36px;
+    width:300px;
+    padding-left:8px ;
+
+}
+.for{
+  display: flex;
+justify-content: space-between;
+color: black;
+cursor: pointer;
+}
+.for p{
+    color: black;
+}
+.logBtn{
+    height:40px;
+    width:120px;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.logBtn:hover{
+      color:rgb(17, 17, 17);
+    background-color: rgb(240, 237, 237);
+}

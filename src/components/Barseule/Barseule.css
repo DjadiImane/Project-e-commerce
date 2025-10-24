@@ -1,0 +1,71 @@
+.link {
+  text-decoration: none; /* 🔹 enlève le soulignement */
+
+}
+.navbar{
+    padding:45px;
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+   margin: auto;
+
+}
+.navbar img{
+    margin-top:5px;
+    height:23px;
+    width:35px;
+      cursor: pointer;
+}
+.navbar_menu{
+  display:flex; 
+  gap:46px; 
+}
+.icons_div{
+  display:flex; 
+  gap:40px; 
+}
+.navbar p {
+    font-size:22px;
+    color: #0e0d0d;
+}
+.icons_div button{
+    background: transparent;
+height:40px;
+width:80px;
+border-radius: 9px;
+cursor:pointer;
+transition: 0.4s;
+color:#0e0d0d;
+border: 1px solid  #0e0d0d;
+}
+.icons_div button:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid  black;
+}
+.navbar_menu .oui{
+    border-bottom: 2px solid #0e0d0d;
+  padding-bottom: 3px;
+
+}
+.navbar p {
+cursor: pointer;
+}
+.cart_div{
+    position:relative;
+}
+.top{
+    position:absolute;
+    background-color: red;
+    top:-12px;/*'-' car L'élément monte de 8px par rapport au haut du parent.*/
+    right: -12px;
+ min-width:13px;
+  min-height:10px;
+    border-radius: 10px;
+    color:#0e0d0d;
+    display:flex;
+    justify-content: center;
+}
+.top p{
+  color:white
+}

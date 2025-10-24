@@ -1,0 +1,45 @@
+.Sallon{
+    margin-top:50px;
+      background-image: url("/Salon avec sol en marbre.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:50vw;
+display: flex;
+    flex-direction: column;
+    gap:20px;
+     align-items: end;
+text-align: center;
+padding: 100px 50px;
+}
+.Sallon p{
+   color: white;
+width:800px;
+font-size:23px;
+}
+.Sallon button{
+        width: 210px;
+height: 70px;
+  background: transparent;
+  border: 1px solid white;
+color:white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+margin-right:270px;
+}
+.Sallon button:hover{
+      background-color: black;
+    color:rgb(236, 226, 226);
+    border: 1px solid black;
+}
+/* .descreption{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: end;
+    margin: 70px;
+    justify-content: center;
+text-align: center;
+
+} */

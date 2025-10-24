@@ -1,0 +1,130 @@
+.About{
+    width:85%;
+    margin-left:100px;
+  
+}
+.About h1{
+    background: linear-gradient(to left , #252525, #999999);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.Photo-haut{
+  position: relative; 
+margin-bottom: 40px;  
+}
+.Photo-haut img{
+width: 100%;
+height: 468px;
+
+}
+.Photo-haut p{
+    position:absolute;
+    left:40%;
+    top:35%;
+    font-size: 68px;
+    color: #3F3F3F;
+}
+.desc2{
+    display: flex;
+gap:50px;
+    margin: 60px 0 50px 0;
+}
+.desc2 img{
+    width:550px;
+height: 450px;
+margin-left: 20px;
+}
+.desc2 div{
+    width:550px;
+  height: 450px;
+
+
+
+}
+.desc2 p{
+     text-indent: 20px;
+        font-size:17px;
+  color: #434141;
+  width:600px;
+}
+.desc2 h1{
+    margin:50px 0 20px 0;
+    color:black
+}
+.milieu{
+    margin-top: 40px;
+    display: flex;
+justify-content: space-between;
+}
+.milieu-gauche{
+    margin-left: 40px;
+}
+.milieu-gauche h1{
+ color: #353535;
+ padding-bottom: 10px;
+
+}
+.milieu-gauche p{
+color: #898989;
+font-size: 20px;
+}
+.milieu-droite{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:440px;
+    margin-top: 10px;
+}
+.div1{
+background-color: #C2C2C2 ;
+border-radius: 5px;
+}
+.div2{
+    background-color: #353535;
+    height: 5px;
+    width: 380px;
+    border-radius: 5px;
+}
+.div3{
+background-color: #C2C2C2 ;
+border-radius: 5px;
+}
+.div4{
+     background-color: #353535;
+    height: 5px;
+    width: 310px;
+    border-radius: 5px;
+}
+.percentage{
+    display: flex;
+ justify-content: space-between;
+gap:300px;
+
+}
+.percentage p{
+ color: #353535;
+ 
+}
+.paragraphs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; 
+}
+.paragraphs div h3{
+    padding-bottom:8px;
+    font-size: 20px;
+}
+.paragraphs div p{
+  font-size: 20px;  
+}
+.Why{
+  
+    margin:70px 0 50px 40px;
+
+}
+.Why h1{
+     padding-bottom: 10px;
+      color: #353535;
+        font-size: 35px;
+}
+

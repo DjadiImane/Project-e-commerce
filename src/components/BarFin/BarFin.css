@@ -1,0 +1,40 @@
+.BarFin{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+  background: #2B2B2B;
+padding:20px 40px 50px 80px;
+}
+.partie2{
+     display:grid;
+    grid-template-columns: auto auto auto auto;
+
+    gap:50px;
+}
+h1,h2,p{
+       color: #ABABAB;
+}
+
+.About p{
+    width:400px;
+}
+.About{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Usefull{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Download{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Contacte{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}

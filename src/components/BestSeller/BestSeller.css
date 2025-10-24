@@ -1,0 +1,24 @@
+.plusieursPro{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+
+gap:15x;
+margin:30px 20px 20px 20px;
+}
+.introduction{
+display: flex;
+flex-direction: column;
+gap:25px;
+align-items: center;
+margin-bottom:50px ;
+}
+.introduction p{
+    color: #8A8A8A;
+width: 600px;
+text-align: center;
+font-size: 23px;
+}
+.introduction h1{
+   color: #373737;
+font-size:44px ;
+}

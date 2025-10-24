@@ -1,0 +1,57 @@
+
+.mainDiv{
+display:flex;
+gap:90px;
+}
+.partieDroite{
+flex-grow: 5;
+position: relative;
+}
+.partieGauche{
+    display: flex;
+    flex-direction: column; 
+    gap:50px;
+
+}
+.pro{
+    row-gap: 10px;
+    display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+gap:15x;
+margin:45px 20px 20px 20px;
+}
+.select{
+    position: absolute;
+    border:none;
+    margin-right:55px;
+    color: #7E7E7E;
+     font-size:18px;
+     outline: none;
+     right: 0%;
+     background: transparent;
+}
+.search{
+padding-left: 20px;
+    width:300px;
+    height: 51px;
+     background: transparent;
+   border: 1px solid #00000040;
+   margin-left:15px;
+   font-size: 18px;
+}
+.Category{
+    display: flex;
+    flex-direction: column;
+   margin-top:40px;
+   padding-left: 30px;
+gap: 32px;
+
+}
+.Category h4{
+  color: #2D2D2D;
+font-size:23px;
+}
+.Category label{
+    color: #7E7E7E;
+font-size:19px;
+}

@@ -1,0 +1,47 @@
+.link {
+  text-decoration: none; 
+  color: black;
+
+}
+
+.elements_choix{
+    width:75%;
+    height:100px;
+ border-bottom: 2px solid rgb(228, 221, 221);
+    display: flex;
+    justify-content: space-between;
+  margin-left: 170px;
+  margin-top:10px;
+}
+.img_infoos{
+     display: flex;
+      justify-content: space-between;
+      gap:20px;
+}
+.img_infoos h3{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.img_infoos img{
+    width:80px;
+    height:80px;
+}
+.titree{
+    margin-bottom: 50px;
+ color:#0b0b0b;
+     
+}
+.num_del{
+    display: flex;
+    gap:30px;
+}
+.num_del input{
+height:30px;
+width:50px;
+margin-top: 5px;
+border:1px solid rgb(228, 221, 221);
+padding-left:15px;
+}
+.num_del  img{
+    cursor: pointer;
+}
